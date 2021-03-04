@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background-color: pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.but_menu{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.el_menu ul{
+    list-style-type: none;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.el_menu li a{
+    display: block;
+        color:black;
+    background-color: transparent;
+    border: 3px solid pink;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
